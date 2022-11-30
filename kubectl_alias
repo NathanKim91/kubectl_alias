@@ -1,0 +1,21 @@
+alias k='kubectl'
+
+alias kaf='kubectl apply -f'
+
+alias kgn='kubectl get node'
+alias kgnw='kubectl get node -o wide'
+alias kgp='kubectl get pod'
+alias kgpv='kubectl get pv'
+alias kgpvc='kubectl get pvc'
+alias kgsc='kubectl get sc'
+alias kgd='kubectl get deployment'
+alias kgs='kubectl get service'
+
+alias kdp='kubectl describe pod'
+alias kdd='kubectl describe deployment'
+alias kds='kubectl describe service'
+alias kdpvc='kubectl describe pvc'
+
+alias klot100='kubectl logs --tail 100'
+
+alias kppvrt='kubectl patch -p "{\"spec\":{\"persistentVolumeReclaimPolicy\":\"Retain\"}}" pv'
