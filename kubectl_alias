@@ -1,3 +1,5 @@
+source <(kubectl completion bash)
+
 alias k='kubectl'
 
 alias kaf='kubectl apply -f'
